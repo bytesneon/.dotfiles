@@ -40,3 +40,5 @@ alias feh="feh -Zr.d --draw-tinted --action1 \"exiftool %F\" --draw-actions --so
 alias lg="looking-glass-client -F"
 alias togglenvidia="$HOME/.scripts/toggle_nvidia.sh"
 alias blender="$HOME/.scripts/blender_selector.sh"
+alias rec="$HOME/.scripts/peek_gyazo_upload.sh"
+alias kderestart="killall plasmashell && plasmashell > /dev/null 2>&1 & disown"
