@@ -161,3 +161,5 @@ neofetch
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 [[ -f "$HOME/.extras" ]] && source "$HOME/.extras"
 [[ -f "$HOME/.functions" ]] && source "$HOME/.functions"
+
+export PYTHONSTARTUP=~/.pythonstartup
